@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<style> 
+.reg{
+   
+    margin: auto;
+    height: 1000px;
+    width: 700px;
+    padding: 30px;
+
+    }
+h1{
+    text-align: center;
+    color: navy;
+    font-size: 2.5rem;
+    font-family: serif
+}
+.holder{
+    font-family: serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+input{
+    text-align: center;
+    padding: 30px;
+    width: 500px;
+    margin: 20px;
+}
+.btn{
+   height: 80px;
+   width: 200px;
+   margin: 10px;
+   border-radius: 20px;
+   background-color: rgb(49, 144, 239);
+
+}
+.foot{
+    margin: auto;
+    text-align: center;
+   
+    height: 200px;
+    width: 500px;
+    padding: 30px;
+
+}
+.btn:hover{
+    background-color:  rgb(140, 187, 235);
+
+
+}
+
+</style>
+
+</head>
+<body>
+
+<form class="reg" action="/submit" method="post">
+<head><h1> EVENT REGISTRATION</h1></head>
+<hr>
+<div class="holder">
+     <br>
+     <label id="field">Enter Your Name</label>
+     <input type="text" name="n" placeholder="Enter your name">
+     <br>
+     
+     <label id="field">Enter Your ID </label>
+     <input type="text" name="i" placeholder="Enter your ID">
+     <br>
+
+     <label id="field">Enter Your Department </label>
+     <input type="text" name="d" placeholder="Enter your Department">
+     <br>
+
+     <label id="field">Enter Your Event </label>
+     <input type="text" name="e" placeholder="Enter Event Name">
+     <br>
+
+      <label id="field"> Enter Your Contact </label>
+     <input type="text" name="c" placeholder="Enter your Contact">
+     
+    <div class="foot">
+        <button type="submit" class="btn" value="Submit"><h2>Submit</h2></button>
+        <button type="reset" class="btn" value="Submit"><h2>Reset</h2></button>
+    </div>
+
+</div>
+
+</form>
+
+</body>
+</html>
